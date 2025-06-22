@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --widget-bg: #ffffff;
+  --widget-text-primary: #333333;
+  --widget-text-secondary: #666666;
+  --widget-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --widget-bg: #1e1e2f;
+  --widget-text-primary: #ffffff;
+  --widget-text-secondary: #bbbbbb;
+  --widget-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}

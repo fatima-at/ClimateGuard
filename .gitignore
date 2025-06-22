@@ -1,0 +1,31 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Swap files and backups
+*.swp
+*.swo
+*.bak
+
+# Logs that may appear anywhere
+*.log
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Temporary files/folders
+tmp/
+temp/
+
+node_modules/
+
+coverage/
+
+.env
+.env.local
+.env.*.local
