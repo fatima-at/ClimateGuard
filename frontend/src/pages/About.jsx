@@ -1,7 +1,7 @@
 // src/pages/About.jsx
 export default function About() {
   return (
-    <main className="bg-white ml-6 w-[calc(100%-16rem)] mt-20 rounded-3xl shadow-xl p-8 dark:bg-darkmain min-h-screen transition text-gray-800 dark:text-white">
+    <main className="bg-white w-[calc(100%-25rem)] mt-24 rounded-3xl shadow-xl p-8 dark:bg-darkmain min-h-screen transition text-gray-800 dark:text-white" style={{ marginLeft: '21rem' }}>
       <h1 className="text-4xl font-bold mb-6">About ClimateGuard</h1>
       <p className="text-lg leading-relaxed mb-4">
         <strong>ClimateGuard</strong> is a smart microclimate monitoring and early warning system
